@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu Information</title>
+    <link rel="stylesheet" href="poke.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+</head>
+<body>
+       <header id="header" class="container mt-4 mb-5 bg-light p-3 rounded">
+        
+        <div class="row align-items-center">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <img src="profile.jpg" alt="Picture of Pikachu" class="img-fluid rounded-circle">
+            </div>
+
+            <div class="col-md-8">
+                <h1 class="display-4">Pokemon API</h1>
+                <p class="lead">Welcome and enjoy finding new information about your favorite Pokemons!</p>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="searchBox">
+          <input
+            id="pokeName"
+            type="Pokemon name"
+            placeholder="Pokemon name"
+          />
+          <button id="search">Search</button>
+        </div>
+  
+        <div class="pokeBox"></div>
+      </main>
+    <script src="poke.js"></script>
+</body>
+</html>
